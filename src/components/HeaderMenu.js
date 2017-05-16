@@ -3,10 +3,11 @@ import React, {Component} from 'react';
 export default class HeaderMenu extends Component{
 	render(){
 		return(
-			<header className="header">
-				<div></div>
-				<div></div>
-			</header>
+			<div className="header">
+				<h1>HEllo, como estás?</h1>
+				<div>HELLO</div>
+				<div>it is</div>
+			</div>
 		)
 	}
 }
